@@ -1,0 +1,140 @@
+body {
+  background-color: #fffdfd;
+}
+
+body header {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+body header img {
+  width: 40px;
+}
+
+body #formulario {
+  width: 600px;
+  height: 700px;
+  margin: 50px auto;
+  padding: 30px 30px;
+  border: 1px solid  #bebebe;
+  border-radius: 14px;
+  -webkit-box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #formulario #containerTitulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+body #formulario #containerTitulo img {
+  width: 50px;
+}
+
+body #formulario form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+body #formulario form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+}
+
+body #formulario form div input {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 15px;
+  height: 40px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+  border: 1px solid #bbbbbb;
+  outline: 0;
+}
+
+body #formulario form div input:focus {
+  border: 1px solid #ffcb22;
+}
+
+body #formulario form div:last-of-type {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+body #formulario form button {
+  font-size: 20px;
+  background-color: #ffcb22;
+  color: #ffffff;
+  border: 0;
+  border-radius: 20px;
+  width: 70%;
+  height: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body #formulario form button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body #formulario #links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #formulario #links a {
+  text-decoration: none;
+  color: #999999;
+}
+
+body #formulario #links a:last-of-type {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=login.css.map */

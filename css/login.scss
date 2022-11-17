@@ -1,0 +1,110 @@
+body {
+    background-color: #fffdfd;
+
+    header {
+        padding-left: 50px;
+        padding-top: 30px;
+
+        img {
+            width: 40px;
+        }
+    }
+
+    #formulario {
+        width: 600px;
+        height: 700px;
+
+        margin: 50px auto;
+        padding: 30px 30px;
+
+        border: 1px solid  #bebebe;
+        border-radius: 14px;
+        box-shadow: 0 0 2em rgba($color: #000000, $alpha: 0.2);
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        #containerTitulo {
+            display: flex;
+            gap: 40px;
+
+            img {
+                width: 50px;
+            }
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            
+            div {
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+
+                input {
+                    margin-top: 5px;
+                    padding: 10px;
+    
+                    font-size: 15px;
+    
+                    height: 40px;
+    
+                    border-radius: 5px;
+                    box-shadow: 0 0 0 0;
+                    border: 1px solid #bbbbbb;
+                    outline: 0;
+    
+                    &:focus {
+                        border: 1px solid #ffcb22;
+                    }
+                }
+            }
+
+            div:last-of-type {
+                margin-top: 40px;
+                margin-bottom: 60px;
+            }
+
+
+            button {
+                font-size: 20px;
+                background-color: #ffcb22;
+                color: #ffffff;
+                border: 0;
+                border-radius: 20px;
+                width: 70%;
+                height: 50px;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                transition: 0.3s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        #links {
+            display: flex;
+            flex-direction: column;
+            
+            a {
+                text-decoration: none;
+                color: #999999;
+            }
+
+            a:last-of-type {
+                margin-top: 20px;
+                
+            }
+            
+        }
+    }
+}

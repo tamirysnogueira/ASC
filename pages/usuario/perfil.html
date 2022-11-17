@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../css/home.css" />
+    <link rel="stylesheet" href="../../css/perfil.css">
+    <script type="module" src="../../functions/perfil.js"></script>
+    <script src="../../svg-inject.min.js"></script>
+    <title>Perfil</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../../img/arrow (2).svg" alt="Voltar" id="img" class="injectable">
+            
+            <h1 id="nameTitulo"></h1>
+        </div>
+        
+    </header>
+
+    <main>
+        <div id="containerDadosUsuario">
+            <div id="anunciar">
+                <a href="../Animal/AncAnimalPerdido.html">Anúnciar animal perdido</a>
+                <a href="../Animal/AncAnimalAdocao.html">Anunciar animal para adoção</a>
+                <a href="">Gerenciar anúncios </a>
+            </div>
+
+            <div id="dados">
+                <a href="">Cadastrar seu animal</a>
+                <a href="../EditarDadosConta.html">Editar dados</a>
+                <a href="">Excluir conta</a>
+            </div>
+        </div>
+    </main>
+    
+
+    <script src="../../svg-inject.min.js"></script>
+    <script>
+        SVGInject(document.querySelectorAll("img.injectable"));
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+
+
+    .JaTemConta{
+        border-style: solid;
+        border-radius: 40px;
+        border-color: #d4d4d4;
+        border-width: 3px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 900px;
+        height: 500px;
+
+        .h1{
+
+            display: flex;
+            justify-content: center;
+            color: #2d6bbb;
+            font-weight: 400;
+            margin-top: 50px;
+        }
+      
+      #Botoes{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 60px;
+
+        #a{
+            text-decoration: none;
+        }
+        
+
+        #Sim, #Nao{
+        display: flex;
+        font-size: 20px;
+        background-color: #2d6bbb;
+        color: #ffffff;
+        border: 0;
+        border-radius: 20px;
+        width: 200px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        
+        } 
+    #Nao{
+        background-color: #ffcb22;
+        color: #000000;
+        
+
+    }
+        
+}
+    
+     
+}
+}

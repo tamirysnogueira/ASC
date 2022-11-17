@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="stylesheet" type="text/css" href="../css/home.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/AncAnimalPerdido.css" />
+    <title>Anunciar Animal Perdido</title>
+</head>
+<body>
+    <header>
+        <a href="../usuario/perfil.html">
+            <img src="../../img/left-arrow 1.svg" alt="Voltar" id="voltar" >
+        </a>
+        <h2>Anunciar Animal Perdido</h2>
+    </header>
+
+    <section id="formulario">
+
+        <form action="">
+
+            <div>
+                <span>Data</span>
+                <input type="date" placeholder="Ultima vez visto" id="date">
+            </div>
+
+            <div>
+                <span>localização</span>
+                <input type="text" placeholder="Onde foi visto a ultima vez " id="descriptionLocation">
+            </div>
+
+            <div>
+                <span>Telefone</span>
+                <input type="tel" placeholder="(00)0000-00000" id="tel">
+            </div>
+            <div>
+                <span>Descrição</span>
+                <input type="text" placeholder="Cor-Raça-Porte-idade-situação" id="description">
+            </div>
+
+            <div id="foto">
+                <span>Foto do animal(opcional)</span>
+                <div id="containerImage"></div>
+                <label for="arquivo" id="label">carregue a imagem</label>
+                <input type="file" name="arquivo" id="arquivo" accept="image/png, image/jpeg" >
+            </div>
+        
+            <button type="button" id="submitLost"  value="Exibir Alert"> Confirma </button>
+        </form>
+
+    
+    </section>
+
+    <script type="module" src="../../functions/animalPerdido.js"></script>
+
+</body>
+</html>

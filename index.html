@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <script src="svg-inject.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="cabecalho">
+      <h1><img src="img/pata.png" /> ASC <img src="img/pata.png" /></h1>
+
+      <div>
+        <a id="buttonCadastro" href="pages/Cadastro.html">
+          <img src="img/perfil.png" alt="perfil-de-usuario" />
+          Cadastrar
+        </a>
+
+        <a id="buttonLogin" href="pages/Login.html">
+          <img src="img/adicionar.png" alt="adicionar-usuario" />
+          Login
+        </a>
+      </div>
+    </header>
+
+    <section id="ImgAcolher">
+      <img src="img/logo+dog.png" alt="" />
+    </section>
+
+    <section id="Sobre">
+      <div class="containerTitulo">
+        <div class="LinhaEsquerda"></div>
+        <h1>O Que Fazemos?</h1>
+        <div class="LinhaDireita"></div>
+      </div>
+
+      <div id="Botoes">
+        <div id="Adocao">
+          <h2>Adoção</h2>
+
+          <div class="geral">
+            <img id="Adocao" src="img/BscAnimalA.svg"  class="injectable"/>
+            <a id="QroAdotar">Quero Adotar</a>
+          </div>
+
+          <div class="geral">
+            <img id="Adocao" src="img/DvgAnimalA.svg"  class="injectable"/>
+            <a id="QroAdotar" href="pages/Animal/AncAnimalAdocao.html">Divulgar Animal</a>
+          </div>
+        </div>
+
+        <div id="AnimaisPerdidos">
+          <h2>Animais Perdidos</h2>
+
+          <div class="geral">
+            <img id="Busca" src="img/BscAnimalP.svg"  class="injectable"/>
+            <a id="QroDivulgarAnimal">Busco Animal</a>
+          </div>
+
+          <div class="geral">
+            <img id="Busca" src="img/DvgAnimalP.svg" class="injectable" />
+            <a id="QroDivulgarAnimal" href="pages/Animal/AncAnimalPerdido.html" >Divulgar Animal</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="SobreNos">
+      <div class="containerTitulo">
+        <div class="LinhaEsquerda"></div>
+        <h1>Quem Somos Nós?</h1>
+        <div class="LinhaDireita"></div>
+      </div>
+
+      <div id ="QuemSomos">
+        <img id="dogs" src="img/dogs.svg" class="injectable"/>
+
+        <p>
+          Somos desenvolvedores e estudantes que se preocupam com os animais em situação de abandono ou mals tratos!
+          por isso em nosso trabalho prático procuraremos melhorar a situação desses pobres animaisinhos que nem sabem
+          a situação em que foram colocados. Em nosso sistema os ajudamos dando a possibilidade de seus donos (ou pessoa que o achar)
+          divulguem o animal em nosso feed, para que assim pessoas interessadas em ajudar/adotar possam concluir
+          seu objetivo de forma mais facil e eficaz visitando nosso site!
+        </p>
+      </div>
+    </section>
+
+    
+
+    <footer>
+      <div class="containerTitulo">
+        <div class="LinhaEsquerda"></div>
+        <h1>Contato</h1>
+        <div class="LinhaDireita"></div>
+      </div>
+
+      <div id="containerIcons">
+        <a class="icons">
+          <img src="img/facebook 1.svg" alt="Facebook" class="injectable imageIcons"> 
+          <span>Facebook</span>
+        </a>
+
+        <a class="icons">
+          <img src="img/instagram.svg" alt="Instagram" class="injectable imageIcons">
+          <span>Instagram</span>
+        </a>
+
+        <a class="icons"> 
+          <img src="img/email.svg" alt="E-mail" class="injectable imageIcons" >
+          <span>E-mail</span>
+        </a>
+      </div>
+
+
+    </footer>
+    
+
+
+
+    <script src="svg-inject.min.js"></script>
+    <script>
+        SVGInject(document.querySelectorAll("img.injectable"));
+    </script>
+    
+  </body>
+</html>

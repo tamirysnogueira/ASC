@@ -1,0 +1,187 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fffdfd;
+}
+
+body header {
+  padding-left: 250px;
+  padding-top: 5px;
+  background-color: #ffcb22;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 60px;
+}
+
+h2 {
+  color: white;
+  margin-left: 310px;
+}
+
+#voltar {
+  width: 40px;
+  margin-right: 165px;
+}
+
+body #formulario {
+  width: 600px;
+  height: 700px;
+  margin: 50px auto;
+  padding: 30px 30px;
+  border: 1px solid #bebebe;
+  border-radius: 14px;
+  -webkit-box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #formulario form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+body #formulario form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+}
+
+body #formulario form div input {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 15px;
+  height: 40px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+  border: 1px solid #bbbbbb;
+  outline: 0;
+}
+
+body #formulario form div input:focus {
+  border: 1px solid #ffcb22;
+}
+
+body #formulario form div {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#foto input[type="file"] {
+  display: none;
+}
+
+#foto #containerImage {
+  width: 100%;
+  height: 150px;
+  display: none;
+}
+
+#foto #containerImage img {
+  width: 100%;
+  height: 100%;
+}
+
+#foto label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  padding: 50px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+  border: 1px solid #bbbbbb;
+  background-color: #fffdfd;
+  color: #ffcb22;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+body #formulario form button {
+  font-size: 20px;
+  background-color: #ffcb22;
+  color: #ffffff;
+  border: 0;
+  border-radius: 20px;
+  width: 70%;
+  height: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  margin-top: 10px;
+}
+
+body #formulario form button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=AncAnimalPerdido.css.map */

@@ -1,0 +1,111 @@
+@import 'home';
+
+header {
+    width: 100%;
+    height: 80px;
+
+    background-color: #3065AC;
+    
+    display: flex;
+    justify-content: flex-start;
+    
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-left: 11%;
+        margin-right: 11%;
+        padding: 40px;
+
+        width: 1000px;
+        min-width: 400px;
+
+        #img {
+            width: 30px;
+            height: 30px;
+
+            transform: rotate(-180deg);
+
+            path {
+                transition: 0.3s ease-in-out;
+            }
+
+            &:hover {
+                path {
+                    fill: #ffcb22;
+                }
+                
+            }
+            
+        }
+
+        h1 {
+            color: white;
+        }
+
+    }
+}
+
+main {
+    #containerDadosUsuario {
+        width: 600px;
+        height: 700px;
+
+        margin: 50px auto;
+        padding: 30px 30px;
+
+        border: 1px solid  #bebebe;
+        border-radius: 14px;
+        box-shadow: 0 0 2em rgba($color: #000000, $alpha: 0.2);
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        div {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            width: 100%;
+
+            a {
+                font-size: 16px;
+                border: 0;
+                border-radius: 20px;
+                width: 80%;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                transition: 0.3s ease-in-out;
+                text-align: center;
+                text-decoration: none;
+
+                &:hover {
+                    filter: brightness(1.2);
+                }
+            }
+        }
+
+        #anunciar {
+            a {
+                background-color: #ffcb22;
+                color: black;
+            }
+        }
+
+        #dados {
+            a {
+                background-color: #3065AC;
+                color: white;
+            }
+        }
+    }
+}

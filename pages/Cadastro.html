@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/home.css" />
+    <link rel="stylesheet" type="text/css" href="../css/cadastro.css" />
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../img/left-arrow 1.svg" alt="Voltar">
+        </a>
+        
+    </header>
+
+    <section id="formulario">
+        <div id="containerTitulo">
+            <img src="../img/elipses.svg" alt="">
+            <h1>Cadastro</h1>
+            <img src="../img/elipses.svg" alt="">
+        </div>
+        
+        <form action="">
+
+            <div>
+                <span>Nome</span>
+                <input type="text" id="name" value="">
+            </div>
+
+            <div>
+                <span>CPF</span>
+                <input type="text" placeholder="00000000000" id="cpf" value="">
+            </div>
+
+            <div>
+                <span>Telefone</span>
+                <input type="text" placeholder="(00)000000000" id="tel" value="">
+            </div>
+
+
+            <div>
+                <span>Email</span>
+                <input type="email" id="email">
+            </div>
+            
+            <div>
+                <span>Senha</span>
+                <input type="text" id="password">
+            </div>
+            
+
+            
+
+            <button type="button" id="cadastro" value="Exibir Alert">cadastrar</button>
+        </form>
+
+        <div id="links">
+            <a href="Login.html">ja tem uma conta? Entre!</a>
+        </div>
+    </section>
+
+
+    <script type="module" src="../functions/database.js"></script>
+    <script type="module" src="../functions/cadastro.js"></script>
+    
+</body>
+</html>

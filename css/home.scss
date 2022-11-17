@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+//sempre dar ctrl p
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  background-color: #fffdfd;
+
+  #cabecalho {
+    background-color: #ffcb22;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+
+    h1 {
+      color: #2d6bbb;
+      font-weight: 400;
+      margin-left: 70px;
+
+      img {
+        width: 21px;
+      }
+    }
+
+    div {
+      display: flex;
+
+      a {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        background-color: #2d6bbb;
+        color: #ffffff;
+        border: 0;
+        border-radius: 20px;
+        width: 200px;
+        height: 20px;
+        justify-content: center;
+        padding: 20px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        text-decoration: none;
+
+        &:hover {
+          background-color: #2a86ff;
+        }
+
+        img {
+          width: 23px;
+          margin-right: 8px;
+        }
+      }
+
+      #buttonCadastro {
+        margin-right: 40px;
+        margin-left: 550px;
+      }
+    }
+  }
+
+  #ImgAcolher {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+    img {
+      width: 850px;
+    }
+  }
+
+  .containerTitulo {
+    display: flex;
+      align-items: center;
+
+      h1 {
+        color: #2d6bbb;
+        font-weight: 400;
+        font-size: 25px;
+      }
+
+      .LinhaEsquerda {
+        width: 350px;
+        height: 4px;
+        background-color: #ffcb22;
+        margin-right: 15px;
+      }
+
+      .LinhaDireita {
+        width: 350px;
+        height: 4px;
+        background-color: #ffcb22;
+        margin-left: 15px;
+      }
+  }
+
+  #Sobre,
+  #SobreNos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+
+    #Botoes {
+      width: 923px;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: space-between;
+
+      h2 {
+        display: flex;
+        justify-content: center;
+        color: #2d6bbb;
+        font-weight: 400;
+        margin-top: 50px;
+      }
+
+      div.geral {
+        border-style: solid;
+        border-radius: 40px;
+        border-color: #d4d4d4;
+        border-width: 3px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 450px;
+
+        #Adocao,
+        #Busca {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 8px;
+          width: 165px;
+          height: 165px;
+          text-decoration: none;
+        }
+
+        #QroAdotar,
+        #QroDivulgarAnimal {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 20px;
+          background-color: #ffcb22;
+          color: #000000;
+          border: 0;
+          border-radius: 20px;
+          width: 250px;
+          height: 20px;
+          padding: 20px;
+          margin-left: 50px;
+          margin-right: 50px;
+          margin-bottom: 8px;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  #SobreNos {
+    #QuemSomos {
+      background-color: #ffcb22;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 150px;
+      margin-top: 65px;
+      width: 100%;
+      height: 600px;
+  
+      p {
+        max-width: 500px;
+  
+        font-size: 20px;
+  
+        line-height: 40px;
+        text-align: center;
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 150px;
+    margin-bottom: 100px;
+
+    #containerIcons {
+      display: flex;
+      align-items: center;
+      gap: 150px;
+
+      margin-top: 100px;
+
+      .icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        cursor: pointer;
+
+        .imageIcons {
+          width: 80px;
+        }
+
+        span {
+          margin-top: 30px;
+        }
+        
+      }
+
+    }
+  }
+
+  
+}
