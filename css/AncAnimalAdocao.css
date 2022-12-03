@@ -1,8 +1,7 @@
 * {
   padding: 0%;
   margin: 0%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -13,25 +12,16 @@ body header {
   padding-left: 250px;
   padding-top: 5px;
   background-color: #ffcb22;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
   width: 100%;
   height: 60px;
 }
 
 h2 {
-  color: white;
+  color: rgb(255, 255, 255);
   margin-left: 275px;
 }
 
@@ -47,49 +37,25 @@ body #formulario {
   padding: 30px 30px;
   border: 1px solid #bebebe;
   border-radius: 14px;
-  -webkit-box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 body #formulario form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   margin-top: 20px;
 }
 
 body #formulario form div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 70%;
 }
 
@@ -99,8 +65,7 @@ body #formulario form div input {
   font-size: 15px;
   height: 40px;
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 0 0;
-          box-shadow: 0 0 0 0;
+  box-shadow: 0 0 0 0;
   border: 1px solid #bbbbbb;
   outline: 0;
 }
@@ -114,30 +79,19 @@ body #formulario form div {
   margin-bottom: 15px;
 }
 
-#foto input[type="file"] {
+#foto input[type=file] {
   display: none;
 }
-
 #foto label {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   margin-top: 20px;
   padding: 50px;
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 0 0;
-          box-shadow: 0 0 0 0;
+  box-shadow: 0 0 0 0;
   border: 1px solid #bbbbbb;
   background-color: #fffdfd;
   color: #ffcb22;
@@ -157,20 +111,13 @@ body #formulario form button {
   border-radius: 20px;
   width: 70%;
   height: 50px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
-  -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   margin-top: 30px;
 }
 
 body #formulario form button:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-/*# sourceMappingURL=AncAnimalAdocao.css.map */
+  transform: scale(1.1);
+}/*# sourceMappingURL=AncAnimalAdocao.css.map */

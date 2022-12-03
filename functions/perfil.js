@@ -30,8 +30,9 @@ buttonLogout.addEventListener('click', ()=> {
 
     if(confirmLogout){
         signOut(auth).then(() => {
-
+          
             window.location.href = '../../index.html'
+            
             
           }).catch((error) => {
 

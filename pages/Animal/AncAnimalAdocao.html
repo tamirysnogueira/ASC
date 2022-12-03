@@ -3,10 +3,11 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <link rel="stylesheet" type="text/css" href="../css/home.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/home.css" />
     <link rel="stylesheet" type="text/css" href="../../css/AncAnimalAdocao.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/AncAnimalPerdido.css" />
     <title>Anunciar animal para adoção</title>
-    <script src='main.js'></script>
+    <script type="module" src='../../functions/animalAdocao.js'></script>
 </head>
 <body>
     <header>
@@ -22,25 +23,26 @@
 
             <div>
                 <span>localização</span>
-                <input type="text" placeholder="Onde foi visto a ultima vez visto" >
+                <input type="text" placeholder="Rua Chico Júlio" id="descriptionLocation" >
             </div>
 
             <div>
                 <span>Telefone</span>
-                <input type="text" placeholder="(00)000000000">
+                <input type="text" placeholder="(00)000000000" id="tel">
             </div>
             <div>
                 <span>Descrição</span>
-                <input type="text" placeholder="Cor-Raça-Porte-idade-situação" >
+                <input type="text" placeholder="Cor-Raça-Porte-idade-situação" id="description">
             </div>
 
             <div id="foto">
                 <span>Foto do animal(opcional)</span>
-                <label for="arquivo">carregue a imagem</label>
+                <div id="containerImage"></div>
+                <label for="arquivo" id="label">carregue a imagem</label>
                 <input type="file" name="arquivo" id="arquivo" accept="image/png, image/jpeg">
             </div>
         
-            <button type="submit" id="sim" onclick="funcao1()" value="Exibir Alert"> Confirma </button>
+            <button type="button" id="submitAdopt" value="Exibir Alert"> Confirma </button>
         </form>
 
     

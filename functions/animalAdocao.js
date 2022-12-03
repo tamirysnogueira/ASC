@@ -6,7 +6,7 @@ let image = document.getElementById('arquivo')
 let label = document.getElementById('label')
 let containerImage = document.getElementById('containerImage')
 
-const buttonSubmit = document.getElementById('submitLost')
+const submitAdopt = document.getElementById('submitAdopt')
 
 //mudar imagem no html do usuário
 image.addEventListener('change', (evt)=> {
@@ -38,19 +38,13 @@ image.addEventListener('change', (evt)=> {
 
 
 //dados do formulario
-buttonSubmit.addEventListener('click', ()=> {
-    let dataAnimalLost = document.getElementById('date').value
-
-    let resultado = dataAnimalLost.split("-")
-
-    resultado.reverse()
+submitAdopt.addEventListener('click', ()=> {
 
     let datasAnimal = {
-        dateLost: resultado.join('-'),
         descriptionLocation: document.getElementById('descriptionLocation').value,
         telForContact: document.getElementById('tel').value,
         description:  document.getElementById('description').value,
-        grup: "lost"
+        grup: "adopt"
     }
 
     function verification(){
@@ -77,7 +71,7 @@ buttonSubmit.addEventListener('click', ()=> {
             if (user) {
                 let idAnimal = Math.floor(Math.random() * 10000)
               
-                set(ref(database, `/users/${user.uid}/datasAnimalLost/animal${idAnimal}`), datasAnimal);
+                set(ref(database, `/users/${user.uid}/datasAnimalAdopt/animal${idAnimal}`), datasAnimal);
 
                 setTimeout(() => {
                     location.reload()
