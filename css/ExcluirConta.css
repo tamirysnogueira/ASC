@@ -36,7 +36,7 @@ body .JaTemConta #Botoes {
 body .JaTemConta #Botoes #a {
   text-decoration: none;
 }
-body .JaTemConta #Botoes #Sim, body .JaTemConta #Botoes #Nao {
+body .JaTemConta #Botoes #excluir, body .JaTemConta #Botoes #Nao {
   display: flex;
   font-size: 20px;
   background-color: #2d6bbb;
@@ -51,7 +51,7 @@ body .JaTemConta #Botoes #Sim, body .JaTemConta #Botoes #Nao {
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
-body .JaTemConta #Botoes #Sim:hover, body .JaTemConta #Botoes #Nao:hover {
+body .JaTemConta #Botoes #excluir:hover, body .JaTemConta #Botoes #Nao:hover {
   transform: scale(1.1);
 }
 body .JaTemConta #Botoes #Nao {

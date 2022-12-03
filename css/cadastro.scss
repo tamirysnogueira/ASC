@@ -7,7 +7,10 @@ body header {
   padding-top: 30px;
 }
 body header img {
-  width: 40px;
+  width: 30px;
+            height: 30px;
+
+            transform: rotate(-180deg);
 }
 body #formulario {
   width: 600px;

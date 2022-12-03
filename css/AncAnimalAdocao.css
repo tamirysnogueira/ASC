@@ -12,17 +12,22 @@ body header {
   padding-left: 250px;
   padding-top: 5px;
   background-color: #ffcb22;
-  display: flex;
+  display: grid;
+  grid-template-columns: 8fr 8fr 4fr 4fr;
+  justify-items: center;
   align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
   width: 100%;
   height: 60px;
 }
 
+body header img {
+  width: 30px;
+  height: 30px;
+  transform: rotate(-180deg);
+}
+
 h2 {
   color: rgb(255, 255, 255);
-  margin-left: 275px;
 }
 
 #voltar {
@@ -88,6 +93,7 @@ body #formulario form div {
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 200px;
   margin-top: 20px;
   padding: 50px;
   border-radius: 5px;

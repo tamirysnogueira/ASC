@@ -43,8 +43,10 @@ if(arrayAnimals.length === 0){
                 containerAnimals.innerHTML += `
                     <div> 
                         <img src="${allDataAanimals.img}" alt="">
-                        <h2>Data que foi perdido: ${allDataAanimals.dateLost}</h2>
+                        <h2>Animal perdido!</h2>
+                        <p>Data em que foi visto: ${allDataAanimals.dateLost}</p>
                         <p>${allDataAanimals.description}</p>
+                        <p>Telefone para contato: ${allDataAanimals.telForContact}</p>
                     </div> 
                 
                 ` 
@@ -52,8 +54,9 @@ if(arrayAnimals.length === 0){
                 containerAnimals.innerHTML += `
                     <div> 
                         <img src="${allDataAanimals.img}" alt="">
-                        <h2>Animal para adoção</h2>
-                        <p>${allDataAanimals.description}</p>
+                        <h2>Animal para adoção!</h2>
+                        <p>Descrição: ${allDataAanimals.description}</p>
+                        <p>Telefone para contato: ${allDataAanimals.telForContact}</p>
                     </div> 
                 
                 `

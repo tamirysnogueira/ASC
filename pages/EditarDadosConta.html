@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/home.css" />
     <link rel="stylesheet" type="text/css" href="../css/EditarDadosConta.css" />
+    <script src="../functions/editarDados.js" type="module"></script>
     <title>Cadastro</title>
 
         
@@ -13,7 +14,7 @@
 <body>
     <header>
         <a href="usuario/perfil.html">
-            <img src="../img/left-arrow 1.svg" alt="Voltar" id="voltar" >
+            <img src="../img/arrow (2).svg" alt="Voltar" id="voltar" >
         </a>
         <h2>Editar dados da conta</h2>
     </header>
@@ -28,32 +29,32 @@
 
             <div>
                 <span>Nome</span>
-                <input type="text" >
+                <input type="text" id="name">
             </div>
 
             <div>
                 <span>CPF</span>
-                <input type="text" placeholder="00000000000">
+                <input type="text" placeholder="00000000000" id="cpf">
             </div>
 
             <div>
                 <span>Telefone</span>
-                <input type="text" placeholder="(00)000000000">
+                <input type="text" placeholder="(00)000000000" id="tel">
             </div>
 
 
             <div>
                 <span>Email</span>
-                <input type="text">
+                <input type="text" id="email">
             </div>
             
             <div>
                 <span>Senha</span>
-                <input type="text">
+                <input type="text" id="senha">
             </div>
                    
         
-            <button type="submit" id="sim" onclick="funcao1()" value="Exibir Alert"> Confirma </button>
+            <button type="button" id="edit"> Confirma </button>
         </form>
 
     
