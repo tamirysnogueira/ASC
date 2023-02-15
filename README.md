@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-    <img src="img/img-componentes/logo-topo.svg" alt="" align="center" >
+    <img src="img/logo.png" alt="" align="center" >
     ASC
 </h1>
 
