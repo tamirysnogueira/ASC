@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-    <img src = "github/asc.gif" width="1000px">
+    <img src = "github/asc-gif.gif" width="1000px">
 </p>
 <br>
 
