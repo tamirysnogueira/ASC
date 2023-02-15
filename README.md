@@ -11,6 +11,7 @@
     Utilizei JavaScript junto com Firebase para fazer o acesso ao banco de dados e armazenar as informações de login e animais cadastrados. 
 </h4>
 <br>
+
 <p align="center">
     <img src = "github/asc.gif" width="1000px">
 </p>
@@ -32,7 +33,7 @@
 
 ### Vercel
 Aqui você pode visualizar o projeto, é só clicar em:
-[Acolher São Carlos](https://wakizash.vercel.app/](https://asc-two.vercel.app/)
+[Acolher São Carlos](https://asc-two.vercel.app/)
 
 <br>
 
