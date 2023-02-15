@@ -2,11 +2,14 @@
 
 <h1 align="center">
     <img src="img/img-componentes/logo-topo.svg" alt="" align="center" >
-    Wakizash
+    ASC
 </h1>
 
 <h4 align="center">
-    Projeto desenvolvido com a finalidade de aprimorar as habilidades de um site responsivo. 
+    Esse projeto consiste em ser um site para procurar animais e também adota-los. Podemos fazer Login em nossa conta e também nos cadastrarmos, ao final dessas etapas
+    é possível cadastrar o animal perdido ou divulga-lo para adoção. 
+    O trabalho foi feito por 3 estudantes, sendo eu focada na parte de Front-End e Back-End e os demais ficaram responsáveis pelo deisign.
+    Utilizei JavaScript junto com Firebase para fazer o acesso ao banco de dados e armazenar as informações de login e animais cadastrados. 
 </h4>
 <br>
 <p align="center">
